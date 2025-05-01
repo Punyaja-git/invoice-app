@@ -5,3 +5,5 @@
 <p>Due Date: {{ \Carbon\Carbon::parse($invoice->due_date)->format('M d, Y') }}</p>
 
 <p>Thank you for your business!</p>
+
+<!-- resources/views/emails/invoice.blade.php -->
